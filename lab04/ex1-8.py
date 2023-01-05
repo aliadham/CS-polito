@@ -30,6 +30,9 @@ def main():
     for dup in duplicates: 
         print(dup,end=" ")
     print()
+    
+    #we can print like this:
+    print(*duplicates, sep=" ")
 
 if __name__ == "__main__":
     main()
