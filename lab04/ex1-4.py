@@ -17,3 +17,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#another-algorithm
+a = input()
+b = a[::-1]
+string = ""
+for i in b:
+    if i.isupper():
+        string = string + i
+print(b)
+print(string)
