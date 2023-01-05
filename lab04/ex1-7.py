@@ -13,3 +13,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+#another_algorithm
+a = input()
+cnt = 1
+for i in range(len(a)):
+    for j in range(len(a)):
+        if j + cnt <= len(a):
+            b = a[j:j+cnt]
+            print(b)
+    cnt = cnt + 1
